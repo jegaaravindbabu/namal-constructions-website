@@ -138,7 +138,7 @@
 
       try {
         const data = Object.fromEntries(new FormData(form).entries());
-        const res = await fetch("https://formsubmit.co/ajax/aravindbabu6969@gmail.com", {
+        const res = await fetch("https://formsubmit.co/ajax/admin@namalconstructions.com", {
           method: "POST",
           headers: { "Content-Type": "application/json", Accept: "application/json" },
           body: JSON.stringify({
