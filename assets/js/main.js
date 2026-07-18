@@ -146,7 +146,7 @@
             _template: "table",
             Name: data.name, Phone: data.phone, Email: data.email,
             "Project type": data.project_type, "Budget range": data.budget || "Not specified",
-            "Site location": data.location || "Not specified", Message: data.message || "—",
+            "Project location": data.location || "Not specified", Message: data.message || "—",
           }),
         });
         if (!res.ok) throw new Error("send failed");
