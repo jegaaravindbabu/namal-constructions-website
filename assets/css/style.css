@@ -108,6 +108,7 @@ section { padding: 96px 0; position: relative; }
   background: rgba(198,165,92,0.06);
 }
 .logo-mark::after { content: ""; position: absolute; inset: 3px; border: 1px solid var(--gold-dim); border-radius: 3px; }
+.logo-mark svg { width: 30px; height: 34px; display: block; }
 .logo-text { line-height: 1.15; }
 .logo-text strong { font-family: var(--font-head); font-size: 19px; letter-spacing: 0.06em; display: block; color: var(--ivory); }
 .logo-text span { font-size: 9.5px; letter-spacing: 0.42em; text-transform: uppercase; color: var(--gold); }

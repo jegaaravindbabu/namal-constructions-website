@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3c98a"/>
+      <stop offset="1" stop-color="#b8944a"/>
+    </linearGradient>
+  </defs>
+  <!-- ground -->
+  <rect x="0" y="0" width="100" height="100" rx="14" fill="#0a0f1e"/>
+  <!-- double architectural frame -->
+  <rect x="5" y="5" width="90" height="90" rx="10" fill="none" stroke="#c6a55c" stroke-width="2"/>
+  <rect x="10.5" y="10.5" width="79" height="79" rx="6" fill="none" stroke="#c6a55c" stroke-opacity="0.35" stroke-width="1"/>
+  <!-- N built as structure: two pillars + stepped diagonal beam -->
+  <rect x="25" y="24" width="9" height="52" fill="url(#gold)"/>
+  <rect x="66" y="24" width="9" height="52" fill="url(#gold)"/>
+  <path d="M34 24 H46 v13 h5 v13 h5 v13 h5 v13 H54 Z" fill="url(#gold)"/>
+  <!-- lintel and plinth -->
+  <rect x="25" y="19" width="50" height="2" fill="#c6a55c" fill-opacity="0.55"/>
+  <rect x="25" y="79" width="50" height="2" fill="#c6a55c" fill-opacity="0.55"/>
+</svg>
